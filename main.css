@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+    background-image: linear-gradient(to right, orange, red, pink);
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+.margin-bottom-top {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bold-text {
+    font-size: large;
+    font-weight: 400;
+    font-style: italic;
+}
+.text-center {
+    justify-content: center;
+}
+.special-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+.buttons {
+    width: 100%;
+}
