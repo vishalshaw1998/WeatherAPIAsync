@@ -18,7 +18,7 @@ async function getCountryData() {
                 );
             }
             tempCol = document.createElement("div");
-            tempCol.setAttribute("class", "col-3 inner");
+            tempCol.setAttribute("class", "col-sm-12 col-md-6 col-lg-3 inner");
             tempCol.innerHTML = `<div class="card" style="width: 18rem;">
                         <img
                             src= ${item.flag}
